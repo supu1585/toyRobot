@@ -38,9 +38,9 @@ Example 1:
 
 PLACE 0,0,NORTH: http://localhost:8080/place/0/0/NORTH (USE POST METHOD)
 
-MOVE: http://localhost:8080/move 
+MOVE: http://localhost:8080/move (USE PUT METHOD)
 
-REPORT: http://localhost:8080/report
+REPORT: http://localhost:8080/report (USE GET METHOD)
 
 Output: 0,1,NORTH
 
